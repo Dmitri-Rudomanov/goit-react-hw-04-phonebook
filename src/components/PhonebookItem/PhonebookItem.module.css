@@ -1,0 +1,17 @@
+.contact{
+    display: flex;
+    margin-bottom: 10px;
+    padding: 5px;
+    justify-content: space-between;
+    border: 2px solid greenyellow;
+}
+.contact:last-child{
+    margin-bottom: 0px;
+}
+.delete{
+    margin: 0 0 0 10px;
+    transition: all 0.3s ease 0s;
+}
+.delete:hover{
+    background-color: rgb(235, 121, 121);
+}
